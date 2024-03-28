@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://s.zagranitsa.com/images/articles/6729/870x486/53d189dfcd54fa9ecae756ddf5a7c2ee.jpg?1530714543);
+    background-repeat: no-repeat;
+    background-position: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+}
+
+.icons{
+    list-style: none;
+    border: 3px solid rgb(24, 18, 1);
+    width: 700px;
+    height: 100px;
+    background-color: rgb(203, 245, 35);
+
+}
+
+.icons li {
+    height: 70px;
+    width: 70px;
+    border: 3px solid rgb(110, 43, 78);
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
+    transition: 1s;
+    
+
+}
+
+.icons li:hover{
+    transform: scale(1.01);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgb(66, 12, 12);
+    transition: 200px;
+    
+    
+}
+.icons li a i {
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(246, 5, 134);
+    transition: 500ms;
+}
+
+.icons li:hover a i {
+    transform: scale(1.1);
+    color: rgb(236, 9, 149)
+   
+}
